@@ -5,6 +5,7 @@ from traceback import print_stack
 import utilities.custom_logger as cl
 from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -81,6 +82,21 @@ class SeleniumDriver():
             self.log.info("Element --" + locator + "-- clicked")
         except:
             self.log.info("Cannot click --" + locator + "-- element")
+            print_stack()
+
+    def dropdownSelect(self, value, locator, locatorType="xpath", selectType="index", element=None):
+        selectType = selectType.lower()
+        if locator:
+            element = self.getElement(locator, locatorType)
+        if selectType == "index":
+            return Select(element).select_by_index(value)
+        elif selectType == "value":
+            return Select(element).select_by_value(value)
+        elif selectType == "visible text":
+            return Select(element).select_by_visible_text(value)
+        else:
+            self.log.info("Cannot select element with --" + value + "-- value with select type --" +
+                                selectType + "--")
             print_stack()
 
     def elementClear(self, locator="", locatorType="xpath", element=None):

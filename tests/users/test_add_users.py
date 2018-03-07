@@ -21,6 +21,6 @@ class AddUsersTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     @data(*getCSVData("addusersdata.csv"))
     @unpack
-    def test_add_users(self, uemail, uphone, uname, upassword, upasswordConfirm):
-        self.up.addUser(email=uemail, phone=uphone, name=uname,
-                            password=upassword, passwordConfirm=upasswordConfirm)
+    def test_add_users(self, uemail, uphone, uname, upassword, upasswordConfirm, urole):
+        self.up.addUser(email=uemail, phone=uphone, name=uname, password=upassword,
+                            passwordConfirm=upasswordConfirm, role=urole)

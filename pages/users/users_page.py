@@ -25,6 +25,8 @@ class UsersPage(BasePage):
     _password_field = "//input[@name='password']"
     _confirmpass_field = "//input[@name='password_confirmation']"
     _saveuser_btn = "//button[@ng-click='save()']"
+    _role_dropdown = "//select[@name='role']"
+    _avatarUpload_element = "//input[@name='avatar']"
 
     def clickAddUserBtn(self):
         self.elementClick(self._adduser_btn)
@@ -55,10 +57,17 @@ class UsersPage(BasePage):
         self.elementClear(self._confirmpass_field)
         self.sendKeys(passwordConfirm, self._confirmpass_field)
 
+    def selectRole(self, role):
+        self.dropdownSelect(role, self._role_dropdown)
+
+    # def uploadAvatar(self):
+    #     self.
+
     def saveUser(self):
         self.elementClick(self._saveuser_btn)
 
-    def addUser(self, email="", phone="", name="", password="", passwordConfirm=""):
+    def addUser(self, email="", phone="", name="",
+                password="", passwordConfirm="", role=""):
         self.clickAddUserBtn()
         self.enterUserEmail(email)
         self.enterUserPhone(phone)
@@ -67,5 +76,6 @@ class UsersPage(BasePage):
         self.showPasswordsClick()
         self.enterPassword(password)
         self.confirmPassword(passwordConfirm)
+        self.selectRole(role)
         self.saveUser()
         self.util.sleep(2)
