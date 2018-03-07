@@ -1,0 +1,158 @@
+07/03/2018 13:09:37 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:37 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:09:37 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:37 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:09:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:09:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:38 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:09:38 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:09:38 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:09:38 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:09:40 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:09:40 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Send data --666-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Send data --gueGUE1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:09:40 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:09:40 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:09:42 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:09:42 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:09:42 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:09:42 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:09:42 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:09:42 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:09:42 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:43 - LoginPage - INFO: Send data --777-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:43 - LoginPage - INFO: Send data --nabNAB1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:09:43 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:09:43 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:09:45 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:09:45 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:09:45 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:09:45 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Send data --888-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Send data --operOPER1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:09:45 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:09:45 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:09:47 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:09:47 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:09:47 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:09:47 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:09:47 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:09:47 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:09:48 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:09:48 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:09:48 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:09:48 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:09:50 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:09:50 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:41 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:41 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:21:41 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:21:41 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:21:43 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:21:43 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:21:43 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:21:43 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:44 - LoginPage - INFO: Send data --666-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:44 - LoginPage - INFO: Send data --gueGUE1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:21:44 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:21:44 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:21:46 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:21:46 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:21:46 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:21:46 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Send data --777-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Send data --nabNAB1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:21:46 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:21:46 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:21:48 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:21:48 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:21:48 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:21:48 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:21:48 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Send data --888-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Send data --operOPER1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:21:49 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:21:49 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:21:51 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:21:51 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
+07/03/2018 13:21:51 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+07/03/2018 13:21:51 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+07/03/2018 13:21:51 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+07/03/2018 13:21:51 - Util - INFO: Wait :: '2' seconds for 
+07/03/2018 13:21:53 - StatusTest - INFO: ### VERIFICATION SECCESSFUL :: Login was seccessful
+07/03/2018 13:21:53 - StatusTest - INFO: test_valid_login### TEST SECCESSFUL
