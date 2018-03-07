@@ -19,6 +19,9 @@ class SeleniumDriver():
     def back(self):
         return self.driver.back()
 
+    def forward(self):
+        return self.driver.forward()
+
     def getTitle(self):
         return self.driver.title
 
