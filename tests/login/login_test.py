@@ -3,7 +3,7 @@ from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 from utilities.teststatus import StatusTest
 from pages.login.login_page import LoginPage
-from pages.login.navigation_page import NavigationPage
+from pages.navigation import NavigationPage
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -14,7 +14,7 @@ class LoginTests(unittest.TestCase):
     def classSetup(self, oneTimeSetUp):
         self.lp = LoginPage(self.driver)
         self.ts = StatusTest(self.driver)
-    
+
     def setUp(self):
         self.lp.logout()
 

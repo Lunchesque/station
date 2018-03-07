@@ -2,8 +2,7 @@ import logging
 import utilities.custom_logger as cl
 from base.basepage import BasePage
 from utilities.util import Util
-from pages.login.navigation_page import NavigationPage
-import time
+from pages.navigation import NavigationPage
 
 
 class LoginPage(BasePage):
