@@ -5,8 +5,6 @@ from utilities.util import Util
 from pages.login.navigation_page import NavigationPage
 import time
 
-#pytest -s -v tests/home/login_test.py
-
 
 class LoginPage(BasePage):
 
