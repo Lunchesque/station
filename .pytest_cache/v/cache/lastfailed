@@ -1,4 +1,3 @@
 {
-  "tests/login/login_test.py::LoginTests::test_valid_login": true,
-  "tests/users/test_delete_autousers.py::AddUsersTests": true
+  "tests/login/login_test.py::LoginTests::test_valid_login": true
 }

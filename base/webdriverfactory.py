@@ -48,7 +48,7 @@ class WebDriverFactory():
         else:
             driver = webdriver.Chrome()
         # Setting Driver Implict wait time for An Element
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(3)
         # Maximizing brouser window
         driver.maximize_window()
         # Loading browser with App URL

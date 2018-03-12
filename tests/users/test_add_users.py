@@ -22,5 +22,8 @@ class AddUsersTests(unittest.TestCase):
     @data(*getCSVData("addusersdata.csv"))
     @unpack
     def test_add_users(self, uemail, uphone, uname, upassword, upasswordConfirm, urole):
+        _old_users = self.up.getNumOfAutoTestUsers()
         self.up.addUser(email=uemail, phone=uphone, name=uname, password=upassword,
                             passwordConfirm=upasswordConfirm, role=urole)
+        _new_users = self.up.getNumOfAutoTestUsers()
+        assert _new_users == _old_users + 1

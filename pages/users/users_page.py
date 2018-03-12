@@ -32,6 +32,7 @@ class UsersPage(BasePage):
     _confirm_deletion_btn = "//button[@class='btn btn-primary ng-binding']"
     _count_test_users = "//span[contains(text(),'Auto_test_user')]"
 
+    #path for avatars
     _guest_avatar = "/home/sergey/station/usersavatars/guest_avatar.png"
     _nabl_avatar = "/home/sergey/station/usersavatars/watcher_avatar.jpg"
     _oper_avatar = "/home/sergey/station/usersavatars/oper_avatar.jpg"
@@ -93,20 +94,35 @@ class UsersPage(BasePage):
     def confirmDeleteBtnClick(self):
         self.elementClick(self._confirm_deletion_btn)
 
-    def addUser(self, email="", phone="", name="",
-                password="", passwordConfirm="", role=""):
-        self.clickAddUserBtn()
+    def roleAndAvatarChoose(self, role):
+        self.selectRole(role)
         self.uploadAvatar(role)
+
+    def typeUserData(self, email, phone, name):
         self.enterUserEmail(email)
         self.enterUserPhone(phone)
         self.enterUserFullName(name)
+
+    def typePassword(self, password, passwordConfirm):
         self.autoGenPassClick()
         self.showPasswordsClick()
         self.enterPassword(password)
         self.confirmPassword(passwordConfirm)
-        self.selectRole(role)
+
+    def addUser(self, email="", phone="", name="", password="",
+                                passwordConfirm="", role=""):
+        self.clickAddUserBtn()
+        self.typeUserData(email, phone, name)
+        self.typePassword(password, passwordConfirm)
+        self.roleAndAvatarChoose(role)
         self.saveUser()
-        self.util.sleep(1)
+        self.util.sleep(0.3)
+
+    def getNumOfAutoTestUsers(self):
+        return len(self.getElementList(self._count_test_users))
+    # 
+    # def verifyNewAutoTestUserAdded(self):
+    #
 
     def deleteUser(self):
         self.usersOptionsClick()
@@ -115,5 +131,7 @@ class UsersPage(BasePage):
         self.util.sleep(0.3)
 
     def deleteAutoTestUsers(self):
-        while len(self.getElementList(self._count_test_users)):
+        while self.elementPresenceCheck(self._count_test_users):
             self.deleteUser()
+            if self.elementPresenceCheck(self._count_test_users) == False:
+                break

@@ -7,13 +7,13 @@ from utilities.read_data import getCSVData
 
 @pytest.fixture()
 def setUp():
-    print("Running conftest demo setUp")
+    print("Running conftest setUp")
     yield
-    print("Running conftest demo tearDown")
+    print("Running conftest tearDown")
 
 @pytest.fixture(scope="class")
 def oneTimeSetUp(request, browser, osType):
-    print("Running conftest demo oneTimeSetUp")
+    print("Running conftest oneTimeSetUp")
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
     lp = LoginPage(driver)
@@ -23,7 +23,7 @@ def oneTimeSetUp(request, browser, osType):
         request.cls.driver = driver
     yield driver
     driver.quit()
-    print("Running conftest demo oneTimeTearDown")
+    print("Running conftest oneTimeTearDown")
 
 def pytest_addoption(parser):
     parser.addoption("--browser")

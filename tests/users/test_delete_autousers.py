@@ -18,6 +18,9 @@ class AddUsersTests(unittest.TestCase):
     def setUp(self):
         self.nav.openUserPage()
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.run(order=2)
     def test_delete_auto_users(self):
+        _old_users = self.up.getNumOfAutoTestUsers()
         self.up.deleteAutoTestUsers()
+        _new_users = self.up.getNumOfAutoTestUsers()
+        assert _new_users == 0
