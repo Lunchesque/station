@@ -27,6 +27,11 @@ class UsersPage(BasePage):
     _saveuser_btn = "//button[@ng-click='save()']"
     _role_dropdown = "//select[@name='role']"
     _avatar_element = "//input[@name='avatar']"
+    _users_options_btn = "//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div"
+    _delete_btn = "//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]"
+    _confirm_deletion_btn = "//button[@class='btn btn-primary ng-binding']"
+    _count_test_users = "//span[contains(text(),'Auto_test_user')]"
+
     _guest_avatar = "/home/sergey/station/usersavatars/guest_avatar.png"
     _nabl_avatar = "/home/sergey/station/usersavatars/watcher_avatar.jpg"
     _oper_avatar = "/home/sergey/station/usersavatars/oper_avatar.jpg"
@@ -78,6 +83,16 @@ class UsersPage(BasePage):
     def saveUser(self):
         self.elementClick(self._saveuser_btn)
 
+    def usersOptionsClick(self):
+        self.actionChainsClick(self._users_options_btn)
+
+    def deleteBtnClick(self):
+        self.util.sleep(0.2)
+        self.elementClick(self._delete_btn)
+
+    def confirmDeleteBtnClick(self):
+        self.elementClick(self._confirm_deletion_btn)
+
     def addUser(self, email="", phone="", name="",
                 password="", passwordConfirm="", role=""):
         self.clickAddUserBtn()
@@ -91,4 +106,14 @@ class UsersPage(BasePage):
         self.confirmPassword(passwordConfirm)
         self.selectRole(role)
         self.saveUser()
-        self.util.sleep(2)
+        self.util.sleep(1)
+
+    def deleteUser(self):
+        self.usersOptionsClick()
+        self.deleteBtnClick()
+        self.confirmDeleteBtnClick()
+        self.util.sleep(0.3)
+
+    def deleteAutoTestUsers(self):
+        while len(self.getElementList(self._count_test_users)):
+            self.deleteUser()

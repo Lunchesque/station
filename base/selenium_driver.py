@@ -7,6 +7,7 @@ from selenium.common.exceptions import *
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 
 class SeleniumDriver():
@@ -71,6 +72,16 @@ class SeleniumDriver():
         except:
             self.log.info("Elements list with locator --" + locator + "-- not found")
         return element
+
+    def actionChainsClick(self, locator="", locatorType="xpath", element=None):
+        try:
+            if locator:
+                element = self.getElement(locator, locatorType)
+            ActionChains(self.driver).move_to_element(element).click().perform()
+            self.log.info("Moved and clicked on element --" + locator + "-- seccessful")
+        except:
+            self.log.info("Cannot move and click an --" + locator + "-- element")
+            print_stack()
 
     def elementClick(self, locator="", locatorType="xpath", element=None):
         """
