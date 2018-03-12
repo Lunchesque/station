@@ -56,6 +56,12 @@ class Util(object):
         """
         return self.getAlphaNumeric(charCount, 'lower')
 
+    def uniqueId(self, length=5, type="digits"):
+        return self.getAlphaNumeric(length, type)
+
+    def getUniqueEmail(self, email):
+        return email + self.uniqueId() + "@ki.ki"
+
     def getUniqueNameList(self, listSize=5, itemLength=None):
         """
         Get a list of valid email ids

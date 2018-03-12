@@ -1,2 +1,4 @@
 uemail,uphone,uname,upassword,upasswordConfirm,urole
-email@email.email,12345567888,NewOper1,Newoper@1,Newoper@1,1
+Auto_test_user_guest@ki.ki,0000000000,Auto_test_user_guest_,Newguest@1,Newguest@1,0
+Auto_test_user_watcher@ki.ki,1111111111,Auto_test_user_watcher_,Newguest@1,Newguest@1,1
+Auto_test_user_operator@ki.ki,2222222222,Auto_test_user_operator_,Newguest@1,Newguest@1,2

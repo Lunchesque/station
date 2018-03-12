@@ -26,7 +26,11 @@ class UsersPage(BasePage):
     _confirmpass_field = "//input[@name='password_confirmation']"
     _saveuser_btn = "//button[@ng-click='save()']"
     _role_dropdown = "//select[@name='role']"
-    _avatarUpload_element = "//input[@name='avatar']"
+    _avatar_element = "//input[@name='avatar']"
+    _guest_avatar = "/home/sergey/station/usersavatars/guest_avatar.png"
+    _nabl_avatar = "/home/sergey/station/usersavatars/watcher_avatar.jpg"
+    _oper_avatar = "/home/sergey/station/usersavatars/oper_avatar.jpg"
+    _admin_avatar = "/home/sergey/station/usersavatars/admin_avatar.jpg"
 
     def clickAddUserBtn(self):
         self.elementClick(self._adduser_btn)
@@ -40,6 +44,7 @@ class UsersPage(BasePage):
         self.sendKeys(phone, self._userphone_field)
 
     def enterUserFullName(self, name):
+        name = name + self.util.uniqueId()
         self.elementClear(self._userfullname_field)
         self.sendKeys(name, self._userfullname_field)
 
@@ -60,8 +65,15 @@ class UsersPage(BasePage):
     def selectRole(self, role):
         self.dropdownSelect(role, self._role_dropdown)
 
-    # def uploadAvatar(self):
-    #     self.
+    def uploadAvatar(self, role):
+        if role == "0":
+            self.sendKeys(self._guest_avatar, self._avatar_element)
+        if role == "1":
+            self.sendKeys(self._nabl_avatar, self._avatar_element)
+        if role == "2":
+            self.sendKeys(self._oper_avatar, self._avatar_element)
+        if role == "3":
+            self.sendKeys(self._admin_avatar, self._avatar_element)
 
     def saveUser(self):
         self.elementClick(self._saveuser_btn)
@@ -69,6 +81,7 @@ class UsersPage(BasePage):
     def addUser(self, email="", phone="", name="",
                 password="", passwordConfirm="", role=""):
         self.clickAddUserBtn()
+        self.uploadAvatar(role)
         self.enterUserEmail(email)
         self.enterUserPhone(phone)
         self.enterUserFullName(name)
