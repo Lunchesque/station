@@ -132,5 +132,5 @@ class UsersPage(BasePage):
     def deleteAutoTestUsers(self):
         while self.elementPresenceCheck(self._count_test_users):
             self.deleteUser()
-            if self.elementPresenceCheck(self._count_test_users) == False:
+            if self.isElementPresent(self._count_test_users) == False:
                 break

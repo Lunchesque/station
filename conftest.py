@@ -1,9 +1,6 @@
 import pytest
-from selenium import webdriver
 from pages.login.login_page import LoginPage
 from base.webdriverfactory import WebDriverFactory
-from ddt import ddt, data, unpack
-from utilities.read_data import getCSVData
 
 @pytest.fixture()
 def setUp():

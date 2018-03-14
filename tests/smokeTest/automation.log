@@ -1,0 +1,781 @@
+14/03/2018 14:06:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:06:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:06:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:06:06 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:06:06 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:06:06 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:06:06 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:06:06 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:06:06 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:06:06 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:06:06 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:06:08 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:06:08 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:06:08 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:06:08 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:06:11 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Send data --Auto_test_user_guest@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Send data --0000000000-- to the --//input[@name='phone']-- element
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:06:11 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Send data --Auto_test_user_guest_74448-- to the --//input[@name='fullName']-- element
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/guest_avatar.png-- to the --//input[@name='avatar']-- element
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:06:12 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:12 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:12 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:06:12 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:06:12 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:06:12 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:06:12 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:12 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --Auto_test_user_watcher@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --1111111111-- to the --//input[@name='phone']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --Auto_test_user_watcher_09410-- to the --//input[@name='fullName']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/watcher_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:06:13 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:06:13 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:14 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:14 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:06:14 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:06:14 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:06:14 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:06:14 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Send data --Auto_test_user_operator@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Send data --2222222222-- to the --//input[@name='phone']-- element
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Send data --Auto_test_user_operator_18471-- to the --//input[@name='fullName']-- element
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:06:14 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/oper_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:06:15 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:15 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:15 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:06:15 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:06:15 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:06:15 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:06:15 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:15 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:15 - UsersPage - INFO: Element Found
+14/03/2018 14:06:15 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:06:15 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:06:15 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:06:16 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:16 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:16 - UsersPage - INFO: Element Found
+14/03/2018 14:06:16 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:16 - UsersPage - INFO: Element Found
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:06:16 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:06:16 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:06:16 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:06:16 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:17 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:17 - UsersPage - INFO: Element Found
+14/03/2018 14:06:17 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:17 - UsersPage - INFO: Element Found
+14/03/2018 14:06:17 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:06:17 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:06:17 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:06:17 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:06:17 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:06:17 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:06:17 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:06:17 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:06:20 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:06:20 - UsersPage - INFO: Element not found
+14/03/2018 14:06:24 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:10:32 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:10:32 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:10:32 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:10:32 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:10:34 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:10:34 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:10:34 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:10:34 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:10:35 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:10:35 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:10:35 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:10:35 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:10:38 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Send data --Auto_test_user_guest@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Send data --0000000000-- to the --//input[@name='phone']-- element
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Send data --Auto_test_user_guest_36624-- to the --//input[@name='fullName']-- element
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:10:38 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/guest_avatar.png-- to the --//input[@name='avatar']-- element
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:10:39 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:39 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:39 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:10:39 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:10:39 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:10:39 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:10:39 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Send data --Auto_test_user_watcher@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:10:39 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Send data --1111111111-- to the --//input[@name='phone']-- element
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Send data --Auto_test_user_watcher_69563-- to the --//input[@name='fullName']-- element
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/watcher_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:10:40 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:10:40 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:41 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:41 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:10:41 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:10:41 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:10:41 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:10:41 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Send data --Auto_test_user_operator@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Send data --2222222222-- to the --//input[@name='phone']-- element
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Send data --Auto_test_user_operator_54400-- to the --//input[@name='fullName']-- element
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:10:41 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/oper_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:10:42 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:42 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:42 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:10:42 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:10:42 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:10:42 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:10:42 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:42 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:42 - UsersPage - INFO: Element Found
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:10:42 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:10:42 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:10:42 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:43 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:43 - UsersPage - INFO: Element Found
+14/03/2018 14:10:43 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:43 - UsersPage - INFO: Element Found
+14/03/2018 14:10:43 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:10:43 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:10:43 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:10:43 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:10:43 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:10:43 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:10:43 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:10:43 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:44 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:44 - UsersPage - INFO: Element Found
+14/03/2018 14:10:44 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:44 - UsersPage - INFO: Element Found
+14/03/2018 14:10:44 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:10:44 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:10:44 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:10:44 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:10:44 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:10:44 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:10:44 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:10:44 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:10:47 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:10:47 - UsersPage - INFO: Element not found
+14/03/2018 14:10:50 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:13:33 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:13:33 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:13:33 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:13:34 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:13:34 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:13:34 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:13:34 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:13:34 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:13:34 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:13:34 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:13:34 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:14:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:14:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:14:44 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:14:45 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:14:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:14:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:14:45 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:14:45 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:14:45 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:14:45 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:14:45 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:15:36 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:15:36 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:15:36 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:15:36 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+14/03/2018 14:15:38 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+14/03/2018 14:15:38 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+14/03/2018 14:15:38 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:15:39 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:15:39 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:15:39 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:15:39 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:15:41 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:15:41 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:15:41 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:15:41 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:15:44 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:44 - UsersPage - INFO: Send data --Auto_test_user_guest@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:15:44 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Send data --0000000000-- to the --//input[@name='phone']-- element
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Send data --Auto_test_user_guest_13595-- to the --//input[@name='fullName']-- element
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/guest_avatar.png-- to the --//input[@name='avatar']-- element
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:15:45 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:15:45 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:46 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:46 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:15:46 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:15:46 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:15:46 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:15:46 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Send data --Auto_test_user_watcher@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Send data --1111111111-- to the --//input[@name='phone']-- element
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Send data --Auto_test_user_watcher_11818-- to the --//input[@name='fullName']-- element
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:15:46 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/watcher_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:15:47 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:47 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:47 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:15:47 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:15:47 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:15:47 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:15:47 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:47 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Send data --Auto_test_user_operator@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Send data --2222222222-- to the --//input[@name='phone']-- element
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Send data --Auto_test_user_operator_00479-- to the --//input[@name='fullName']-- element
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:15:48 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:15:48 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:15:49 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:15:49 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/oper_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:15:49 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:15:49 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:15:49 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:49 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:49 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:15:49 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:15:49 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:15:49 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:15:49 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:49 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:49 - UsersPage - INFO: Element Found
+14/03/2018 14:15:49 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:15:49 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:15:49 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:15:49 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:15:50 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:50 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:50 - UsersPage - INFO: Element Found
+14/03/2018 14:15:50 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:50 - UsersPage - INFO: Element Found
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:15:50 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:15:50 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:15:50 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:15:51 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:51 - UsersPage - INFO: Element Found
+14/03/2018 14:15:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:51 - UsersPage - INFO: Element Found
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:15:51 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:15:51 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:15:51 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:15:51 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:15:55 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:15:55 - UsersPage - INFO: Element not found
+14/03/2018 14:15:58 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:05 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:05 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:41:05 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:41:05 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:41:07 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+14/03/2018 14:41:07 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+14/03/2018 14:41:07 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+14/03/2018 14:41:07 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:08 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:08 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:41:08 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:41:08 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//li/a[@href='#']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//img[@class='brand-img']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//img[@ng-if='current.user.avatar']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//a[@kp-icon-svg='attention']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//a[@kp-icon-svg='globe']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:10 - LoginPage - INFO: Elements list with locator --//div[@class='btn btn-default navbar-btn dropdown-toggle']-- found
+14/03/2018 14:41:10 - LoginPage - INFO: Element Found
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:38 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:38 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:41:38 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:41:38 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- Found
+14/03/2018 14:41:40 - NavigationPage - INFO: Element --//*[contains(@ng-if, 'current.user.avatar')]-- clicked
+14/03/2018 14:41:40 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- Found
+14/03/2018 14:41:40 - LoginPage - INFO: Element --//a[@ng-click='logout()']-- clicked
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- cleared seccessful
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-name')]-- Found
+14/03/2018 14:41:41 - LoginPage - INFO: Send data --sergey.verkhovodko@synesis.ru-- to the --//input[contains(@class, 'login-name')]-- element
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- cleared seccessful
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[contains(@class, 'login-password')]-- Found
+14/03/2018 14:41:41 - LoginPage - INFO: Send data --admADM1/-- to the --//input[contains(@class, 'login-password')]-- element
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[@type='submit']-- Found
+14/03/2018 14:41:41 - LoginPage - INFO: Element --//input[@type='submit']-- clicked
+14/03/2018 14:41:41 - Util - INFO: Wait :: '2' seconds for 
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//li/a[@href='#']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//img[@class='brand-img']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//img[@ng-if='current.user.avatar']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//a[@kp-icon-svg='attention']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//a[@kp-icon-svg='globe']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - LoginPage - INFO: Elements list with locator --//div[@class='btn btn-default navbar-btn dropdown-toggle']-- found
+14/03/2018 14:41:43 - LoginPage - INFO: Element Found
+14/03/2018 14:41:43 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:41:43 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:41:43 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:41:43 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:41:46 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:46 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:41:46 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:41:46 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:46 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:41:46 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --Auto_test_user_guest@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --0000000000-- to the --//input[@name='phone']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --Auto_test_user_guest_69836-- to the --//input[@name='fullName']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/guest_avatar.png-- to the --//input[@name='avatar']-- element
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:41:47 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:41:47 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:48 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:48 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:41:48 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:41:48 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:41:48 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:41:48 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Send data --Auto_test_user_watcher@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Send data --1111111111-- to the --//input[@name='phone']-- element
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Send data --Auto_test_user_watcher_83947-- to the --//input[@name='fullName']-- element
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:41:48 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/watcher_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:41:49 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:49 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:49 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:41:49 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:41:49 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:41:49 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:41:49 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//button[@ng-click='create()']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//button[@ng-click='create()']-- clicked
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='email']-- cleared seccessful
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='email']-- Found
+14/03/2018 14:41:49 - UsersPage - INFO: Send data --Auto_test_user_operator@ki.ki-- to the --//input[@name='email']-- element
+14/03/2018 14:41:49 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='phone']-- cleared seccessful
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='phone']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Send data --2222222222-- to the --//input[@name='phone']-- element
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='fullName']-- cleared seccessful
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='fullName']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Send data --Auto_test_user_operator_48050-- to the --//input[@name='fullName']-- element
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='autoGeneratePassword']-- clicked
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='showPasswords']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='showPasswords']-- clicked
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password']-- cleared seccessful
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password']-- element
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- cleared seccessful
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='password_confirmation']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Send data --Newguest@1-- to the --//input[@name='password_confirmation']-- element
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//select[@name='role']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//input[@name='avatar']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Send data --/home/sergey/station/usersavatars/oper_avatar.jpg-- to the --//input[@name='avatar']-- element
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//button[@ng-click='save()']-- Found
+14/03/2018 14:41:50 - UsersPage - INFO: Element --//button[@ng-click='save()']-- clicked
+14/03/2018 14:41:50 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:51 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- Found
+14/03/2018 14:41:51 - NavigationPage - INFO: Element --//div[@kp-icon-svg='settings']-- clicked
+14/03/2018 14:41:51 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- Found
+14/03/2018 14:41:51 - NavigationPage - INFO: Element --//a[@ui-sref='org.users']-- clicked
+14/03/2018 14:41:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:51 - UsersPage - INFO: Element Found
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:41:51 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:41:51 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:41:51 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:51 - UsersPage - INFO: Element Found
+14/03/2018 14:41:51 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:51 - UsersPage - INFO: Element Found
+14/03/2018 14:41:51 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:41:51 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:41:51 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:41:52 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:52 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:52 - UsersPage - INFO: Element Found
+14/03/2018 14:41:52 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:52 - UsersPage - INFO: Element Found
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- Found
+14/03/2018 14:41:52 - UsersPage - INFO: Moved and clicked on element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div-- seccessful
+14/03/2018 14:41:52 - Util - INFO: Wait :: '0.2' seconds for 
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- Found
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//span[contains(text(),'Auto_test_user')]//parent::td//following-sibling::td/div/div/ul/li/a[(text()='Удалить') or (text()='Delete')]-- clicked
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- Found
+14/03/2018 14:41:52 - UsersPage - INFO: Element --//button[@class='btn btn-primary ng-binding']-- clicked
+14/03/2018 14:41:52 - Util - INFO: Wait :: '0.3' seconds for 
+14/03/2018 14:41:56 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
+14/03/2018 14:41:56 - UsersPage - INFO: Element not found
+14/03/2018 14:41:59 - UsersPage - INFO: Elements list with locator --//span[contains(text(),'Auto_test_user')]-- found
