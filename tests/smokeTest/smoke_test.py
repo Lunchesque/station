@@ -7,7 +7,7 @@ from pages.navigation import NavigationPage
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 @ddt
-class AddUsersTests(unittest.TestCase):
+class SmokeTest(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def classSetup(self, oneTimeSetUp):
@@ -18,7 +18,7 @@ class AddUsersTests(unittest.TestCase):
     def setUp(self):
         self.nav.openUserPage()
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.order1
     @data(*getCSVData("addusersdata.csv"))
     @unpack
     def test_add_users(self, uemail, uphone, uname, upassword, upasswordConfirm, urole):
@@ -27,3 +27,10 @@ class AddUsersTests(unittest.TestCase):
                             passwordConfirm=upasswordConfirm, role=urole)
         _new_users = self.up.getNumOfAutoTestUsers()
         assert _new_users == _old_users + 1
+
+    @pytest.mark.last
+    def test_delete_auto_users(self):
+        _old_users = self.up.getNumOfAutoTestUsers()
+        self.up.deleteAutoTestUsers()
+        _new_users = self.up.getNumOfAutoTestUsers()
+        assert _new_users == 0

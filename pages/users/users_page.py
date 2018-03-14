@@ -12,7 +12,6 @@ class UsersPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
-        self.nav = NavigationPage(driver)
         self.util = Util()
 
     #locators
@@ -120,7 +119,7 @@ class UsersPage(BasePage):
 
     def getNumOfAutoTestUsers(self):
         return len(self.getElementList(self._count_test_users))
-    # 
+    #
     # def verifyNewAutoTestUserAdded(self):
     #
 
