@@ -1,8 +1,7 @@
 import logging
-import utilities.custom_logger as cl
-from base.basepage import BasePage
 from utilities.util import Util
-from pages.navigation import NavigationPage
+from base.basepage import BasePage
+import utilities.custom_logger as cl
 
 
 class UsersPage(BasePage):

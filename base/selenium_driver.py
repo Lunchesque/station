@@ -23,6 +23,9 @@ class SeleniumDriver():
     def forward(self):
         return self.driver.forward()
 
+    def goToUrl(self, url):
+        return self.driver.get(url)
+
     def getTitle(self):
         return self.driver.title
 
